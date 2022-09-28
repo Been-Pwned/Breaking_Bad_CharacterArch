@@ -1,0 +1,22 @@
+.spacer{
+    width:20%;
+    height:90px;
+}
+
+.blackground {
+    background-color: black;
+    color: white;
+}
+
+.halfbr {
+    line-height: 10px;
+}
+
+.articletext {
+    font-size: 20px;
+}
+
+.scaledimage {
+    width:70%;
+    height:50%;
+}
