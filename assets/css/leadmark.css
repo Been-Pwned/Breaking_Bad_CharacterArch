@@ -9503,6 +9503,456 @@ textarea.form-control {
   background: #ffbca8;
 }
 
+.header4 {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/jessebackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.header4 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header4 .overlay .subtitle {
+  font-size: calc(13px + 5 * (100vw - 320px) / 880);
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.header4 .overlay .title {
+  font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  font-weight: bold;
+}
+.header4 .shape svg {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header4 .shape svg path {
+  fill: #fff;
+}
+@media (max-width: 1199.98px) {
+  .header4 .shape svg {
+    bottom: -15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .header4 .shape svg {
+    bottom: 0;
+  }
+}
+.header4.components-header {
+  max-height: 450px !important;
+  height: 450px;
+  dispaly: none;
+  background-position: center -140px;
+}
+.header4.components-header .title {
+  font-size: calc(40px + 50 * (100vw - 320px) / 880);
+  font-weight: bold;
+  margin-top: -8%;
+}
+.header4.components-header .shape svg path {
+  fill: #f5f8fc;
+}
+.header4-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  opacity: 0.8;
+  color: #444;
+}
+.header4-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #ffbca8;
+}
+
+.header5 {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/hankbackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.header5 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header5 .overlay .subtitle {
+  font-size: calc(13px + 5 * (100vw - 320px) / 880);
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.header5 .overlay .title {
+  font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  font-weight: bold;
+}
+.header5 .shape svg {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header5 .shape svg path {
+  fill: #fff;
+}
+@media (max-width: 1199.98px) {
+  .header5 .shape svg {
+    bottom: -15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .header5 .shape svg {
+    bottom: 0;
+  }
+}
+.header5.components-header {
+  max-height: 450px !important;
+  height: 450px;
+  dispaly: none;
+  background-position: center -140px;
+}
+.header5.components-header .title {
+  font-size: calc(40px + 50 * (100vw - 320px) / 880);
+  font-weight: bold;
+  margin-top: -8%;
+}
+.header5.components-header .shape svg path {
+  fill: #f5f8fc;
+}
+.header5-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  opacity: 0.8;
+  color: #444;
+}
+.header5-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #ffbca8;
+}
+
+.header6 {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/saulbackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.header6 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header6 .overlay .subtitle {
+  font-size: calc(13px + 5 * (100vw - 320px) / 880);
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.header6 .overlay .title {
+  font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  font-weight: bold;
+}
+.header6 .shape svg {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header6 .shape svg path {
+  fill: #fff;
+}
+@media (max-width: 1199.98px) {
+  .header6 .shape svg {
+    bottom: -15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .header6 .shape svg {
+    bottom: 0;
+  }
+}
+.header6.components-header {
+  max-height: 450px !important;
+  height: 450px;
+  dispaly: none;
+  background-position: center -140px;
+}
+.header6.components-header .title {
+  font-size: calc(40px + 50 * (100vw - 320px) / 880);
+  font-weight: bold;
+  margin-top: -8%;
+}
+.header6.components-header .shape svg path {
+  fill: #f5f8fc;
+}
+.header6-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  opacity: 0.8;
+  color: #444;
+}
+.header6-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #ffbca8;
+}
+
+.header7 {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/mikebackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.header7 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header7 .overlay .subtitle {
+  font-size: calc(13px + 5 * (100vw - 320px) / 880);
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.header7 .overlay .title {
+  font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  font-weight: bold;
+}
+.header7 .shape svg {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header7 .shape svg path {
+  fill: #fff;
+}
+@media (max-width: 1199.98px) {
+  .header7 .shape svg {
+    bottom: -15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .header7 .shape svg {
+    bottom: 0;
+  }
+}
+.header7.components-header {
+  max-height: 450px !important;
+  height: 450px;
+  dispaly: none;
+  background-position: center -140px;
+}
+.header7.components-header .title {
+  font-size: calc(40px + 50 * (100vw - 320px) / 880);
+  font-weight: bold;
+  margin-top: -8%;
+}
+.header7.components-header .shape svg path {
+  fill: #f5f8fc;
+}
+.header7-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  opacity: 0.8;
+  color: #444;
+}
+.header7-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #ffbca8;
+}
+
+.header8 {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/galebackground.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.header8 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header8 .overlay .subtitle {
+  font-size: calc(13px + 5 * (100vw - 320px) / 880);
+  font-weight: 400;
+  margin-bottom: 0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+.header8 .overlay .title {
+  font-size: calc(30px + 40 * (100vw - 320px) / 880);
+  font-weight: bold;
+}
+.header8 .shape svg {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header8 .shape svg path {
+  fill: #fff;
+}
+@media (max-width: 1199.98px) {
+  .header8 .shape svg {
+    bottom: -15px;
+  }
+}
+@media (max-width: 767.98px) {
+  .header8 .shape svg {
+    bottom: 0;
+  }
+}
+.header8.components-header {
+  max-height: 450px !important;
+  height: 450px;
+  dispaly: none;
+  background-position: center -140px;
+}
+.header8.components-header .title {
+  font-size: calc(40px + 50 * (100vw - 320px) / 880);
+  font-weight: bold;
+  margin-top: -8%;
+}
+.header8.components-header .shape svg path {
+  fill: #f5f8fc;
+}
+.header8-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  opacity: 0.8;
+  color: #444;
+}
+.header8-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #ffbca8;
+}
+
 .header2 {
   position: relative;
   height: 100vh;
